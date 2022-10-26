@@ -70,3 +70,4 @@ Get into the habit of writing a README for every program you write. The more pra
 - Line 132: Changed return liElemetns to return words
 - Line 21: Removed ! in front of isValidWord
 - Line 83: Changed < to >=
+- Line 44: Changed (words, height, width) to (words, width, height)

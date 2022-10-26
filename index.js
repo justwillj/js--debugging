@@ -41,7 +41,7 @@ const onCreate = (e) => {
 
   if (isValidWordList(words, width, height)) {
     try {
-      generateWordSearch(words, height, width);
+      generateWordSearch(words, width, height);
     } catch (err) {
       //Alert user of issue;
       if (err.message.indexOf("Unable to generate") === -1) {

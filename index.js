@@ -123,7 +123,7 @@ const deleteWord = (e) => {
  */
 const getWordList = () => {
   let words = [];
-  const liElements = getNextWordsContainer().child;
+  const liElements = getNextWordsContainer().children;
 
   for (const liElement of liElements) {
     words.push(liElement.firstChild.innerText);

@@ -58,3 +58,4 @@ Get into the habit of writing a README for every program you write. The more pra
 ## Changelog
 
 - Line 27: Added a closing } before the else
+- Line 68: Added a closing ' after 'add-word'

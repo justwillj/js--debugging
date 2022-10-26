@@ -114,7 +114,7 @@ const writeWordToList = (word) => {
  */
 const deleteWord = (e) => {
   const li = e.currentTarget.parentNode;
-  li.parentNode.remove(li);
+  li.parentNode.removeChild(li);
 };
 
 /**

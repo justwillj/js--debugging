@@ -16,7 +16,7 @@ const onAddWord = (e) => {
   resetError();
   const wordInput = document.getElementById("new-word");
 
-  const word = wordInput.innerText.toUpperCase();
+  const word = wordInput.value.toUpperCase();
 
   if (!isValidWord(word)) {
     wordInput.classList.toggle("error", false); //Remove error class from input

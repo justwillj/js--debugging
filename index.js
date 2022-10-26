@@ -18,7 +18,7 @@ const onAddWord = (e) => {
 
   const word = wordInput.value.toUpperCase();
 
-  if (!isValidWord(word)) {
+  if (isValidWord(word)) {
     wordInput.classList.toggle("error", false); //Remove error class from input
 
     writeWordToList(word);

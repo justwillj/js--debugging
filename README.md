@@ -62,3 +62,4 @@ Get into the habit of writing a README for every program you write. The more pra
 - Line 8: Changed getElementsByClassName to getElementById
 - Line 92: Changed writeWrodTioList to writeWordToList
 - Line 96: Added classlist instead of class
+- Line 138: Changed next-words to next-word-list

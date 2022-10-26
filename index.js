@@ -35,7 +35,7 @@ const onAddWord = (e) => {
  */
 const onCreate = (e) => {
   resetError();
-  const word = getWordList();
+  const words = getWordList();
   const height = Number(document.getElementById("height").value);
   const width = Number(document.getElementById("width").value);
 

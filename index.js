@@ -89,7 +89,7 @@ const isValidWord = (word) => {
  * Adds word to word bank, with a trash can icon
  * @param {string} word - word to add to word bank
  */
-const writeWrodToList = (word) => {
+const writeWordToList = (word) => {
   const li = document.createElement("li");
 
   const trashButton = document.createElement("div");

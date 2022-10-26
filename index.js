@@ -129,7 +129,7 @@ const getWordList = () => {
     words.push(liElement.firstChild.innerText);
   }
 
-  return liElements;
+  return words;
 };
 
 /**

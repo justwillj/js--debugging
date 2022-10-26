@@ -67,3 +67,4 @@ Get into the habit of writing a README for every program you write. The more pra
 - Line 38: Changed word to words
 - Line 117: Changed remove to removeChild
 - Line 19: Changed .innerText to .value
+- Line 132: Changed return liElemetns to return words

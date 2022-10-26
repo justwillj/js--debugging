@@ -93,7 +93,7 @@ const writeWordToList = (word) => {
   const li = document.createElement("li");
 
   const trashButton = document.createElement("div");
-  trashButton.class.add("icon");
+  trashButton.classList.add("icon");
   let trashIcon = document.createElement("i");
   trashIcon.classList.add("fa", "fa-trash-alt");
   trashButton.addEventListener("click", deleteWord);

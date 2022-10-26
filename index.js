@@ -80,7 +80,7 @@ const isValidWord = (word) => {
   const words = getWordList();
   return (
     !/[^A-Z]/.test(word) && //Only text
-    word.length < 3 && //Word length at least 3
+    word.length >= 3 && //Word length at least 3
     !words.includes(word)
   ); //Not allowing duplicates
 };

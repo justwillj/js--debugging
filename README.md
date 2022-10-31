@@ -56,18 +56,17 @@ Get into the habit of writing a README for every program you write. The more pra
 [Purdue OWL](https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness/index.html) - tips and tricks for keeping your writing concise and impactful
 
 ## Changelog
-
-- Line 27: Added a closing } before the else
-- Line 68: Added a closing ' after 'add-word'
-- Line 8: Changed getElementsByClassName to getElementById
-- Line 92: Changed writeWrodTioList to writeWordToList
-- Line 96: Added classlist instead of class
-- Line 138: Changed next-words to next-word-list
-- Line 126: Changed child to children
-- Line 38: Changed word to words
-- Line 117: Changed remove to removeChild
-- Line 19: Changed .innerText to .value
-- Line 132: Changed return liElemetns to return words
-- Line 21: Removed ! in front of isValidWord
-- Line 83: Changed < to >=
-- Line 44: Changed (words, height, width) to (words, width, height)
+- Line 27: Added a closing } before the else - ✓
+- Line 68: Added a closing ' after 'add-word' - ✓
+- Line 8: Changed getElementsByClassName to getElementById - ✓
+- Line 92: Changed writeWrodTioList to writeWordToList - ✓
+- Line 96: Added classlist instead of class - ✓ (Make sure you are accurate in your Changelog notes. It should be classList not classlist)
+- Line 138: Changed next-words to next-word-list - ✓
+- Line 126: Changed child to children - ✓
+- Line 38: Changed word to words - ✓
+- Line 117: Changed remove to removeChild - ✓ (this could have been debugged by changing li.parentNode.remove(li) to li.remove())
+- Line 19: Changed .innerText to .value - ✓
+- Line 132: Changed return liElemetns to return words - ✓ (again accuracy of your changelog is important! liElements)
+- Line 21: Removed ! in front of isValidWord - ✓
+- Line 83: Changed < to >= - ✓
+- Line 44: Changed (words, height, width) to (words, width, height) - ✓
